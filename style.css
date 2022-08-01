@@ -10,6 +10,7 @@ header {
     margin-top: -30px;
     font-size: 19px;
     display: flex;
+    align-items: baseline;
 }
 
 header span {
@@ -29,7 +30,6 @@ header h2 {
 header nav {
     margin-top: 5px;
     margin-left: 40px;
-    
 }
 
 .nav-section {
@@ -56,10 +56,6 @@ header nav {
     cursor: pointer;
     background: #FF1919;
     color: #fff;
-}
-
-#sign-button {
-    margin-top: 28px;
 }
 
 #sign-button button {
@@ -109,7 +105,7 @@ header nav {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 19px;
-    padding: 6px 35px 6px 35px;
+    padding: 6px 35px;
     border-radius: 50px;
     border: 2px solid #FF1919;
     background: #FF1919;
