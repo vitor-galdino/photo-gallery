@@ -23,11 +23,12 @@ header h2 {
     max-width: 50%;
     width: 100%;
     justify-content: flex-start;
+    cursor: default;
 }
 
 header nav {
-    padding-top: 5px;
-    padding-left: 40px;
+    margin-top: 5px;
+    margin-left: 40px;
     
 }
 
@@ -53,15 +54,12 @@ header nav {
 
 .nav-section button:hover {
     cursor: pointer;
-    width: 100px;
-    height: 36px;
-    border-radius: 50px;
     background: #FF1919;
     color: #fff;
 }
 
 #sign-button {
-    padding-top: 27px;
+    margin-top: 28px;
 }
 
 #sign-button button {
@@ -111,8 +109,7 @@ header nav {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 19px;
-    width: 170px;
-    height: 42px;
+    padding: 6px 35px 6px 35px;
     border-radius: 50px;
     border: 2px solid #FF1919;
     background: #FF1919;
